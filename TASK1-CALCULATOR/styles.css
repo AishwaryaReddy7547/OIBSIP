@@ -1,0 +1,65 @@
+body{
+    background-image: url('calcibg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading {
+    text-align: center;
+    font-size: 50px;
+    font-weight:bold;
+    font-family:algerian;
+    color: tomato;
+    margin: 0px;
+    padding: 0px;
+}
+
+.buttons_row {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+.button {
+    background-color: dodgerblue;
+    color: deeppink;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid midnightblue;
+    height: 50px;
+    padding: 0px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.buttons {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    list-style: none;
+    text-align: center;
+}
+
+.input_text {
+    background-color: rgb(140, 232, 240);
+    color: firebrick;
+    border: 4px solid maroon;
+    font-size: 40px;
+    text-align: right;
+    font-weight: bold;
+    width: 50%;
+    height: auto;
+    align-self: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.button:hover {
+    background-color: plum;
+    color: purple;
+    cursor: pointer;
+}
